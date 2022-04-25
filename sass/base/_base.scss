@@ -9,11 +9,13 @@
 
 html {
     font-size: 62.5%; //1rem == 10px;  10px/16px =62.5%
-
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
    
   
-    @include respond(tab-land) { // width < 1200?
+    @include respond(tab-land) { // width < 1200?/
         font-size: 56.25%; //1rem =  9px, 9/16px = 56.25%
+
     };
 
     @include respond(tab-port) {  // width < 900?
