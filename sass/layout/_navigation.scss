@@ -32,8 +32,8 @@
         width: 6rem;
         border-radius: 50%;
         position: fixed;
-        top: 6.8rem;
-        right: 6rem;
+        top: 6.5rem;
+        right: 6.5rem;
         background-image: radial-gradient($primary-light, $primary-dark);
         z-index: 1000;
         transition: transform .6s cubic-bezier(0.83, 0, 0.17, 1);
@@ -44,7 +44,7 @@
         }
 
         @include respond(phone) {
-            top: 3.5rem;
+            top: 3rem;
             right: 3.5rem;
         }
     }
