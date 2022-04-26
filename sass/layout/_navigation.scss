@@ -28,12 +28,12 @@
     }
 
     &__background{
-        height: 7rem;
-        width: 7rem;
+        height: 6rem;
+        width: 6rem;
         border-radius: 50%;
         position: fixed;
-        top: 6.5rem;
-        right: 6.5rem;
+        top: 6rem;
+        right: 6rem;
         background-image: radial-gradient($primary-light, $primary-dark);
         z-index: 1000;
         transition: transform .6s cubic-bezier(0.83, 0, 0.17, 1);
