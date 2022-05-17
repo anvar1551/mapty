@@ -62,7 +62,7 @@ class RegionInfo {
     constructor(regions) {
         this.regions = regions;
         this.#loadMap();
-        this.#renderWorkoutMarker(this.regions);
+        this.#renderMarker(this.regions);
     }
 
     #loadMap() {
@@ -73,7 +73,7 @@ class RegionInfo {
          }).addTo(this.#map);
     }
 
-    #renderWorkoutMarker(regions) {
+    #renderMarker(regions) {
         regions.forEach(reg =>  
             L.marker(reg.coords).addTo(this.#map)
         .bindPopup(L.popup({
